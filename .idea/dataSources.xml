@@ -7,5 +7,11 @@
       <jdbc-driver>org.h2.Driver</jdbc-driver>
       <jdbc-url>jdbc:h2:~/Codecool/Advanced - Java Enterprise/Java - SI/Netflix_microservices/Netflix_microservices_backend/videos;AUTO_SERVER=TRUE;DB_CLOSE_ON_EXIT=FALSE</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="recommendations" uuid="98031136-8316-4d6c-bda1-4c1e55fc0db0">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:~/Codecool/Advanced - Java Enterprise/Java - SI/Netflix_microservices/Netflix_microservices_backend/recommendations;AUTO_SERVER=TRUE;DB_CLOSE_ON_EXIT=FALSE</jdbc-url>
+    </data-source>
   </component>
 </project>
