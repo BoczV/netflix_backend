@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="videos" uuid="7572d653-7ed0-4584-8e1c-0804ce13bd3f">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:~/Codecool/Advanced - Java Enterprise/Java - SI/Netflix_microservices/Netflix_microservices_backend/videos;AUTO_SERVER=TRUE;DB_CLOSE_ON_EXIT=FALSE</jdbc-url>
+    </data-source>
+  </component>
+</project>
