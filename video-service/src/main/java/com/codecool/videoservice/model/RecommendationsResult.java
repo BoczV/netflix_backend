@@ -7,5 +7,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class RecommendationsResult {
 
-    private List<Recommendation> recommendationList;
+    /*private List<Recommendation> recommendationList;*/
 }
