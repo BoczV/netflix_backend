@@ -18,12 +18,14 @@ public class RecommendationController {
     @GetMapping("/{videoId}/all")
     public List<Recommendation> getRecommendations(@PathVariable("videoId") Long videoId){
         List<Recommendation> allByVideoId = recommendationRepository.findAllByVideoId(videoId);
+        System.out.println(allByVideoId);
         return allByVideoId;
     }
 
     @PostMapping("/add")
-    public void addNewRecommendation(@RequestBody Map<String, Object> body){
-
+    public void addNewRecommendation(@RequestBody Recommendation recommendation){
+        System.out.println(recommendation);
+        recommendationRepository.save(recommendation);
     }
 
 }
